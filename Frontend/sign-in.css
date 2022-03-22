@@ -1,0 +1,107 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Serif+Pro:wght@300;400;600&display=swap");
+body,
+html {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  background-color: #1A1D29;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.login__body {
+  padding: 60px;
+  z-index: 90;
+  position: relative;
+  max-width: 450px;  
+  height: 630px;
+  margin-left: 50%;
+  border-right: 10px;
+  box-sizing: border-box;
+  transform: translateX(-50%);
+  border-radius: 10px;
+}
+
+.login__body h2 {
+  font-size: 32px;
+  color: #fff;
+  margin-top: 0;
+}
+
+.login__body input {
+  height: 50px;
+  width: 100%;
+  border-radius: 3px;
+  color: rgb(0, 0, 0);
+  background: rgb(255, 255, 255);
+  border: 1px solid #333;
+  padding-left: 15px;
+  box-sizing: border-box;
+  outline: none;
+  border-radius: 10px;
+}
+
+.input__wrap {
+  margin-bottom: 25px;
+}
+
+.input__wrap button {
+  height: 50px;
+  width: 100%;
+  color: #fff;
+  background: #e50914;
+  border-radius: 10px;
+  font-weight: 500;
+  font-size: 16px;
+  border: 1px solid #e50914;
+}
+
+.support {
+  display: flex;
+  color: #ffffff;
+  justify-content: space-between;
+  font-size: 12px;
+}
+
+.support input {
+  width: 15px;
+  height: 15px;
+}
+
+.remember {
+  display: flex;
+  align-items: center;
+}
+
+.remember span {
+  margin-right: 10px;
+  height: 25px;
+}
+
+.need__help a{
+  color: #ffffff;
+}
+
+.quick-terms {
+  padding-top: 2em;
+}
+
+.quick-terms p {
+  color: #ffffff;
+  font-size: 15px;
+  text-align: center;
+}
+
+
+.footer-nav-icons {
+  color: white;
+  text-align: center;
+  font-size: 32px;
+  word-spacing: 50px;
+}
+
+.footer-nav-icons:hover {
+  color: red;
+  transition: 0.5s;
+}
